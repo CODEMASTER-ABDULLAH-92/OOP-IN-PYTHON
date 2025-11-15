@@ -686,6 +686,6 @@ If you have any questions or need help:
 
 [![Python](https://img.shields.io/badge/Made_with-Python-blue?logo=python)](https://python.org)
 [![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen)](CONTRIBUTING.md)
-[![Stars](https://img.shields.io/github/stars/username/repository?style=social)](https://github.com/username/repository)
+[![Stars](https://img.shields.io/github/stars/CODEMASTER-ABDULLAH-92/repository?style=social)](https://github.com/username/repository)
 
 </div>
