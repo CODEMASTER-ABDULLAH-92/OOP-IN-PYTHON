@@ -93,4 +93,65 @@
 
 # 5. Write Python code to demonstrate method overriding in inheritance.
 
+# class Animal:
+#     def sound(self):
+#         print("Animal make some sound")
 
+# class Dog(Animal):
+#     def sound(self):
+#         print("Dog bark: woof woof!")
+
+# animal = Animal()
+# dog = Dog()
+
+# animal.sound()
+# dog.sound()
+
+
+# 6. Implement multiple inheritance using two parent classes `Father` and `Mother`.
+
+# class Father:
+#     def skills(self):
+#         return "Coding, Problem Solving"
+
+# class Mother:
+#     def skills(self):
+#         return "Cooking Only , Time Wasting "
+
+# class Child(Father, Mother):
+#     def skills(self):
+#         return Father.skills(self) + Mother.skills(self) + "Web Dev" + "PYTHON DEV"
+
+
+# c = Child()
+# print(c.skills())
+
+
+
+
+
+# 7. Write a program using `super()` to access parent class constructor.
+
+# class Teacher:
+#     def __init__(self, work):
+#         self.work = work
+
+#     def working(self):
+#         print(f"{self.work}")
+
+
+# class Student(Teacher):
+#     def __init__(self, work, hobby):
+#         super().__init__(work)
+#         self.hobby = hobby
+
+#     def working(self):
+#         print(f"Working: {self.work} \nHobby: {self.hobby}")
+
+
+# s = Student("Studying", "Playing Cricket")
+# s.working()
+
+
+
+# 9. Implement polymorphism: create two classes `Cat` and `Dog` with a `sound()` method.
