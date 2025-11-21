@@ -155,3 +155,37 @@
 
 
 # 9. Implement polymorphism: create two classes `Cat` and `Dog` with a `sound()` method.
+
+# class Cat:
+#         def sound(self):
+#             return print("Cat Speaking: Meow Meow")
+
+# class Dog:
+#     def sound(self):
+#         return print("Dog Speaking: Boew Boew")
+
+# animals = [Cat(), Dog()]
+
+# for animal in animals:
+#     animal.sound()
+    
+
+# 16. Write a program that uses encapsulation with private variables and getters/setters.
+class Human:
+    def __init__(self, name,age):
+        self.__name = name
+        self.__age = age
+    def gettingInfo(self):
+        return self.__name, self.__age
+    
+    def settingInfo(self, name,age):
+        self.__name = name
+        self.__age = age
+        
+    def showInfo(self):
+        return print(f"Name: {self.__name}\nAge: {self.__age}")
+
+h = Human("Abdullah", 22)
+h.gettingInfo()
+h.settingInfo("Rajab",20)
+h.showInfo()    
