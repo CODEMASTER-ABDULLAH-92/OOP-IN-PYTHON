@@ -171,21 +171,49 @@
     
 
 # 16. Write a program that uses encapsulation with private variables and getters/setters.
-class Human:
-    def __init__(self, name,age):
-        self.__name = name
-        self.__age = age
-    def gettingInfo(self):
-        return self.__name, self.__age
+# class Human:
+#     def __init__(self, name,age):
+#         self.__name = name
+#         self.__age = age
+#     def gettingInfo(self):
+#         return self.__name, self.__age
     
-    def settingInfo(self, name,age):
-        self.__name = name
-        self.__age = age
+#     def settingInfo(self, name,age):
+#         self.__name = name
+#         self.__age = age
         
-    def showInfo(self):
-        return print(f"Name: {self.__name}\nAge: {self.__age}")
+#     def showInfo(self):
+#         return print(f"Name: {self.__name}\nAge: {self.__age}")
 
-h = Human("Abdullah", 22)
-h.gettingInfo()
-h.settingInfo("Rajab",20)
-h.showInfo()    
+# h = Human("Abdullah", 22)
+# h.gettingInfo()
+# h.settingInfo("Rajab",20)
+# h.showInfo()    
+
+
+
+# 17. Demonstrate composition by creating a `Laptop` class containing a `Battery` object.
+
+class Battery:
+    def __init__(self, capacity):
+        self.capacity = capacity   # in mAh
+
+    def show_battery(self):
+        return f"Battery Capacity: {self.capacity}mAh"
+
+
+class Laptop:
+    def __init__(self, brand, battery_capacity):
+        self.brand = brand
+        
+        # Composition: Laptop HAS a Battery
+        self.battery = Battery(battery_capacity)
+
+    def laptopInfo(self):
+        return f"Laptop Brand: {self.brand}\n{self.battery.show_battery()}"
+
+
+lap = Laptop("Dell", 6000)
+print(lap.laptopInfo())
+
+         
