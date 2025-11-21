@@ -21,6 +21,37 @@
 - [🤝 Contributing](#-contributing)
 - [📜 License](#-license)
 
+
+---
+
+## 📌 OOP Concepts Table
+
+| Title | Code Link | Solution Link | Website Link |
+|-------|-----------|---------------|--------------|
+| Classes & Objects | [Code](https://example.com/code1) | [Solution](https://example.com/solution1) | [Website](https://example.com/site1) |
+| Inheritance | [Code](https://example.com/code2) | [Solution](https://example.com/solution2) | [Website](https://example.com/site2) |
+| Polymorphism | [Code](https://example.com/code3) | [Solution](https://example.com/solution3) | [Website](https://example.com/site3) |
+| Encapsulation | [Code](https://example.com/code4) | [Solution](https://example.com/solution4) | [Website](https://example.com/site4) |
+| Abstraction | [Code](https://example.com/code5) | [Solution](https://example.com/solution5) | [Website](https://example.com/site5) |
+
+---
+
+## 📌 OOP Questions Table
+
+| Sr No. | Question | Code Link | Solution Link |
+|--------|----------|-----------|---------------|
+| 1 | Write a class for a calculator | [Link](https://example.com/q1code) | [Link](https://example.com/q1solution) |
+| 2 | Demonstrate single inheritance | [Link](https://example.com/q2code) | [Link](https://example.com/q2solution) |
+| 3 | Show polymorphism using methods | [Link](https://example.com/q3code) | [Link](https://example.com/q3solution) |
+| 4 | Explain encapsulation with private variables | [Link](https://example.com/q4code) | [Link](https://example.com/q4solution) |
+| 5 | Method Overriding in inheritance | [Link](https://example.com/q5code) | [Link](https://example.com/q5solution) |
+| 6 | Create a Student class with attributes | [Link](https://example.com/q6code) | [Link](https://example.com/q6solution) |
+| 7 | Demo constructor and destructor | [Link](https://example.com/q7code) | [Link](https://example.com/q7solution) |
+| 8 | Create a bank account class | [Link](https://example.com/q8code) | [Link](https://example.com/q8solution) |
+| 9 | Show operator overloading example | [Link](https://example.com/q9code) | [Link](https://example.com/q9solution) |
+| 10 | Create an Animal base class | [Link](https://example.com/q10code) | [Link](https://example.com/q10solution) |
+
+---
 ## 🌟 Quick Start
 
 ### Basic Python Example
